@@ -1,0 +1,140 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;1,500&family=Manrope:wght@600&family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+font-family: 'Barlow', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+padding-top: 55px;
+}
+
+.glass{
+    background: rgb(22 22 22 / 29%);
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 28px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 0;
+    border: 0px solid rgba( 255, 255, 255, 0.18 );
+}
+.nav
+main{
+    height: fit-content;
+}
+.albumn{
+background-image:url(img/BEACH1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+}
+.overlayed{
+    background-color: #2d2d2d12;
+    height: 100%;
+}
+.overlayed-2{
+    background-color: #2d2d2d12;
+    height: 100%;
+   margin-top: 30rem;
+}
+.navbar-item img {
+    max-height: 2.75rem;
+}
+
+
+.menu-list a{
+    color: aliceblue;
+    width: 195px;
+}
+
+.menu-list a:hover {
+    background-color: #1ED760;    
+    border-radius: 30px;
+    color: #363636;
+    /* box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, #1ED760 0px 0px 8px; */
+
+}
+.nav-color{
+    background-color:  #252525bb;
+
+}
+.nav-fixed{
+    position: fixed;
+    top: 0; overflow: hidden; width:100%;
+}
+
+.card{
+    width: 188px;
+    height: 300px;
+    background-color: #161616;
+}
+.card:hover{
+
+    background-color: #2d2d2d;
+    transition:  0.3s;
+}
+.card:hover .play{display: block;}
+
+.play{
+    position: absolute;
+    top: 123px;
+    width: 45px;
+    height: 45px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    margin-left: 58%;
+    transition: all 0.4s ease 0s;
+    display: none;
+    animation: forwards;
+    border:none;
+ 
+}
+.play:hover{
+    background-color: #49ea82;
+    box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, #1ED760 0px 0px 8px;
+
+}
+
+.container{
+    margin-top: 25px;
+    padding-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.container-1{
+    margin-top: 25px;
+    padding-top:0px;
+    margin-bottom: 25px;
+    padding-left: 0px;
+}
+table tr th,td{
+  color:#fff;
+  padding: 0px 0px 0px 0px; 
+  padding: 10px;
+  margin-right: 20px;
+}
+table tr th{
+    border-bottom: 1px solid #333F43;
+    position: sticky;
+    top: 56px;
+    background-color: #3c3c3c;
+
+    
+}
+
+
+table tr td:hover{
+    color:#fff;
+    /* background-color: #1ed75f6b; */
+    /* transition:  0.4s; */
+    border-radius: 30px;
+    cursor: pointer;
+  }
+.image{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+table tr td:nth-child(1){
+text-align:right;
+}
+table tr th:nth-child(1){
+    text-align:right;
+    }
